@@ -32,7 +32,7 @@
                     <tr>
                         <td>${st.count}</td>
                         <td>${use.id}</td>
-                        <td>${use.name}</td>
+                        <td>${use.username}</td>
                     </tr>
                 </c:forEach>
                 </tbody>

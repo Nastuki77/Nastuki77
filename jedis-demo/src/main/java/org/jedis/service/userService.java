@@ -1,7 +1,7 @@
 package org.jedis.service;
 
 import org.jedis.dao.impl.IuseDao;
-import org.jedis.entity.users;
+import org.jedis.entity.User;
 import org.jedis.service.impl.IuserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -19,10 +19,10 @@ public class userService implements IuserService {
 
 
     @Override
-    public List<users> getUserAlll() {
-        List<users> users = this.useDao.getUserAll();
+    public List<User> getUserAlll() {
+        List<User> User = this.useDao.getUserAll();
 
-        return users;
+        return User;
     }
 
 }

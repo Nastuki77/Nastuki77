@@ -1,6 +1,6 @@
 package org.jedis.web.controller;
 
-import org.jedis.entity.users;
+import org.jedis.entity.User;
 import org.jedis.web.controller.base.BaseController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -22,10 +22,16 @@ public class UserController extends BaseController {
     @RequestMapping("/load")
     public String load(Model model){
 
-        List<users> user = this.getUserService().getUserAlll();
+        List<User> user = this.getUserService().getUserAlll();
 
         model.addAttribute("user",user);
         return "user/userPage";
+    }
+
+    @RequestMapping("/login")
+    public String login(Model model){
+
+        return "login/login";
     }
 
 }

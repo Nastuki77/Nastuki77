@@ -1,6 +1,6 @@
 package org.jedis.service.impl;
 
-import org.jedis.entity.users;
+import org.jedis.entity.User;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
@@ -11,6 +11,6 @@ import java.util.List;
 public interface IuserService {
 
     @Transactional
-    List<users> getUserAlll();
+    List<User> getUserAlll();
 
 }
