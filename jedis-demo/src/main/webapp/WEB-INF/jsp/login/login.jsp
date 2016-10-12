@@ -30,7 +30,7 @@
 
             <div id="wrapper">
                 <div id="login" class="animate form">
-                    <form action="mysuperscript.php" autocomplete="on">
+                    <form action="${baseUrl}user/loginConfirm" autocomplete="on">
                         <h1>Log in</h1>
 
                         <p>

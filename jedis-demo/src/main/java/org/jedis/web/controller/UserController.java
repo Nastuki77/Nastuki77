@@ -34,4 +34,10 @@ public class UserController extends BaseController {
         return "login/login";
     }
 
+    @RequestMapping("/loginConfirm")
+    public String loginConfirm(Model model){
+
+        return "common/home";
+    }
+
 }
