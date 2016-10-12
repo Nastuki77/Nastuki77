@@ -48,7 +48,7 @@
     </filter-mapping>
 
     <!-- login filter -->
-  <!--  <filter>
+   <!-- <filter>
         <filter-name>loginFilter</filter-name>
         <filter-class>org.jedis.web.filter.LoginFilter</filter-class>
     </filter>
