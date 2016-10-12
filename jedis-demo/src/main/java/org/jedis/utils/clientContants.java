@@ -15,7 +15,7 @@ public class clientContants {
         configMap.put("baseUrl",myConfig.getString("baseUrl"));
         configMap.put("jsUrl",myConfig.getString("jsUrl"));
         configMap.put("cssUrl",myConfig.getString("cssUrl"));
-        configMap.put("imageUrl",myConfig.getString("imageUrl"));
+        configMap.put("imgUrl",myConfig.getString("imgUrl"));
 
         return configMap;
     }

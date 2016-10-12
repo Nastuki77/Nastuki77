@@ -36,8 +36,12 @@ public class UserController extends BaseController {
 
     @RequestMapping("/loginConfirm")
     public String loginConfirm(Model model){
-
         return "common/home";
+    }
+
+    @RequestMapping("/skipPage")
+    public String skipPage(Model model){
+        return "user/skipPage";
     }
 
 }

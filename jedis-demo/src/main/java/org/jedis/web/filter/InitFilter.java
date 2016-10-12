@@ -21,7 +21,7 @@ public class InitFilter implements Filter {
         fc.getServletContext().setAttribute("baseUrl", MyAppConfig.APP_CONFIGS.get("baseUrl"));
         fc.getServletContext().setAttribute("cssUrl", MyAppConfig.APP_CONFIGS.get("cssUrl"));
         fc.getServletContext().setAttribute("jsUrl", MyAppConfig.APP_CONFIGS.get("jsUrl"));
-        fc.getServletContext().setAttribute("imageUrl", MyAppConfig.APP_CONFIGS.get("imageUrl"));
+        fc.getServletContext().setAttribute("imgUrl", MyAppConfig.APP_CONFIGS.get("imgUrl"));
 
     }
 
